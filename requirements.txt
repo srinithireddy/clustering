@@ -1,0 +1,42 @@
+# Core data science and clustering libraries
+numpy>=1.20.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+scipy>=1.7.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Interactive visualizations (optional but useful)
+plotly>=5.3.0
+
+# Dimensionality reduction
+umap-learn>=0.5.0
+# Alternative dimensionality reduction
+tsne-cuda>=0.3.0  # GPU-accelerated t-SNE (optional)
+
+# Streamlit for app deployment
+streamlit>=1.10.0
+
+# Progress bars for long computations
+tqdm>=4.62.0
+
+# Additional clustering algorithms (optional)
+hdbscan>=0.8.0  # Hierarchical density-based clustering
+kneed>=0.7.0  # For finding optimal k in k-means
+
+# For handling different file formats
+openpyxl>=3.0.0  # Excel support
+pyarrow>=6.0.0  # Parquet support
+
+# For statistical analysis
+statsmodels>=0.13.0
+
+# If working with image data (optional)
+pillow>=8.3.0
+opencv-python>=4.5.0
+
+# For advanced NLP clustering (optional)
+# transformers>=4.11.0
+# sentence-transformers>=2.1.0
